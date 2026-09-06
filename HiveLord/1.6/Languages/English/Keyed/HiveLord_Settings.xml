@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Settings_Rating>Threat level: {0}</HiveLord_Settings_Rating>
+  <HiveLord_Settings_Overview>Multipliers range from 0.01 to 25. Health changes preserve the current health percentage. Summoned Hive Lords use the same difficulty settings.</HiveLord_Settings_Overview>
+  <HiveLord_Settings_AttackPower>Attack damage</HiveLord_Settings_AttackPower>
+  <HiveLord_Settings_IncomingDamage>Damage taken (higher makes the fight easier)</HiveLord_Settings_IncomingDamage>
+  <HiveLord_Settings_Health>Maximum health</HiveLord_Settings_Health>
+  <HiveLord_Settings_Tempo>Attack frequency</HiveLord_Settings_Tempo>
+  <HiveLord_Settings_HealthSummary>Hive Lord health: {0}. Attack frequency adjusts time spent burrowed, repositioning, warning and recovering. Attack animations keep their original speed. Damage taken is still capped at 100 per hit.</HiveLord_Settings_HealthSummary>
+  <HiveLord_Settings_Warnings>Show attack area warnings</HiveLord_Settings_Warnings>
+  <HiveLord_Settings_Reset>Restore defaults</HiveLord_Settings_Reset>
+  <HiveLord_Settings_Multiplier>{0}: ×{1}</HiveLord_Settings_Multiplier>
+</LanguageData>
+

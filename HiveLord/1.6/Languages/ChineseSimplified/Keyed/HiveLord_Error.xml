@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Error_SporePlacement>无法选出5个满足占地、间距和可达性要求的孢子源位置。</HiveLord_Error_SporePlacement>
+  <HiveLord_Error_BossAlreadyPresent>挑战地图已存在任务霸王虫。</HiveLord_Error_BossAlreadyPresent>
+  <HiveLord_Error_BossAnchor>挑战地图没有合法的霸王虫生成位置。</HiveLord_Error_BossAnchor>
+  <HiveLord_Error_QuestGeneration>无法生成辛迪加霸王虫委托。</HiveLord_Error_QuestGeneration>
+  <HiveLord_Error_ControllerMissing>霸王虫捕获预制体缺少Animator Controller。</HiveLord_Error_ControllerMissing>
+  <HiveLord_Error_AnimationAmbiguous>多个动画片段匹配编号：</HiveLord_Error_AnimationAmbiguous>
+  <HiveLord_Error_AnimationMissing>缺少动画片段：</HiveLord_Error_AnimationMissing>
+  <HiveLord_Error_SummonFaction>召唤体必须在生成前绑定有效的使用者阵营。</HiveLord_Error_SummonFaction>
+  <HiveLord_Error_HitProxyClass>受击体定义必须使用HiveLordHitProxy。</HiveLord_Error_HitProxyClass>
+  <HiveLord_Error_CombatExtension>霸王虫定义缺少HiveLordCombatExtension。</HiveLord_Error_CombatExtension>
+  <HiveLord_Error_VisualState>无效的霸王虫视觉状态。</HiveLord_Error_VisualState>
+  <HiveLord_Error_ParticleLayout>捕获预制体需要两层命名酸液粒子和一层命名出土粒子。</HiveLord_Error_ParticleLayout>
+  <HiveLord_Error_SkinnedMesh>霸王虫捕获预制体缺少SkinnedMeshRenderer。</HiveLord_Error_SkinnedMesh>
+  <HiveLord_Error_Animator>霸王虫捕获预制体缺少Animator。</HiveLord_Error_Animator>
+  <HiveLord_Error_CameraAnchor>地图锚点位于捕获摄像机后方。</HiveLord_Error_CameraAnchor>
+  <HiveLord_Error_ChallengeTargetState>未生成或已死亡的霸王虫不能启动挑战。</HiveLord_Error_ChallengeTargetState>
+  <HiveLord_Error_MaskTexture>无法创建霸王虫轮廓纹理。</HiveLord_Error_MaskTexture>
+  <HiveLord_Error_MaskShader>未加载虫体遮罩Shader：</HiveLord_Error_MaskShader>
+  <HiveLord_Error_CapturePrefab>未加载霸王虫捕获预制体：</HiveLord_Error_CapturePrefab>
+  <HiveLord_Error_OutputShader>未加载地图输出Shader：</HiveLord_Error_OutputShader>
+  <HiveLord_Error_SporeTexture>无法创建孢子喷涌虫捕获纹理。</HiveLord_Error_SporeTexture>
+  <HiveLord_Error_SporePrefab>未注册预制体：SporeSpewer.Capture。</HiveLord_Error_SporePrefab>
+  <HiveLord_Error_SporeFogShader>未注册Shader：HiveLord/SporeFog。</HiveLord_Error_SporeFogShader>
+  <HiveLord_Error_DamageCapPatch>伤害上限补丁必须匹配唯一的原版伤害取整入口。</HiveLord_Error_DamageCapPatch>
+  <HiveLord_Error_ChallengeTarget>挑战没有有效的玩家战斗目标。</HiveLord_Error_ChallengeTarget>
+  <HiveLord_Error_EmergenceCell>挑战目标附近没有合法的出土位置。</HiveLord_Error_EmergenceCell>
+  <HiveLord_Error_CombatPhase>无效的霸王虫战斗阶段。</HiveLord_Error_CombatPhase>
+  <HiveLord_Error_CombatSave>存档中的霸王虫战斗状态无效。</HiveLord_Error_CombatSave>
+  <HiveLord_Error_CombatTiming>缺少Animator Controller，无法计算攻击时序。</HiveLord_Error_CombatTiming>
+  <HiveLord_Error_SearchInterval>targetSearchIntervalTicks必须大于0。</HiveLord_Error_SearchInterval>
+  <HiveLord_Error_SearchRadii>搜索半径必须大于0，保留半径不能小于搜索半径。</HiveLord_Error_SearchRadii>
+  <HiveLord_Error_AttackChance>acidAttackChance必须在0–1之间。</HiveLord_Error_AttackChance>
+  <HiveLord_Error_EmergenceRing>出土半径必须非负，最大值不能小于最小值或超出径向枚举范围。</HiveLord_Error_EmergenceRing>
+  <HiveLord_Error_PhaseTiming>战斗阶段时长无效；酸液残留至少600 Tick，地下等待上限不能小于下限。</HiveLord_Error_PhaseTiming>
+  <HiveLord_Error_AnimationTiming>动画时间必须在0–1之间；喷酸窗口需包含命中点，命中必须早于攻击结束。</HiveLord_Error_AnimationTiming>
+  <HiveLord_Error_ShockwaveGeometry>出土冲击半径、击飞距离或冲击波尺寸无效。</HiveLord_Error_ShockwaveGeometry>
+  <HiveLord_Error_AttackGeometry>喷酸或砸地区域的长度、偏移或半宽无效。</HiveLord_Error_AttackGeometry>
+  <HiveLord_Error_Shake>镜头震幅必须在0–0.2之间，衰减距离必须大于0。</HiveLord_Error_Shake>
+</LanguageData>
+

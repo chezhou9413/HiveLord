@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestScriptDef>
+    <defName>HiveLord_SyndicateHunt</defName>
+    <defaultChallengeRating>4</defaultChallengeRating>
+    <isRootSpecial>true</isRootSpecial>
+    <questAvailableLetterLabel>Syndicate Contract: Beneath the Spore Shroud</questAvailableLetterLabel>
+    <questAvailableLetterTextIsDescription>true</questAvailableLetterTextIsDescription>
+    <root Class="HiveLordLib.QuestNode_Root_HiveLordHunt" />
+  </QuestScriptDef>
+
+  <WorldObjectDef ParentName="Site">
+    <defName>HiveLord_ChallengeSite</defName>
+    <label>spore-shrouded nest</label>
+    <description>An arid shrubland swallowed by orange spore fog. The Syndicate&apos;s seismic readings point deep beneath it: a Hive Lord is here.\n\nAfter entry, you have three minutes to clear five Spore Spewers before the Hive Lord emerges. Bring explosives. You may withdraw and try again. Once the kill is confirmed and everyone has left, the location will close.</description>
+    <worldObjectClass>HiveLordLib.HiveLordChallengeSite</worldObjectClass>
+    <texture>World/WorldObjects/HiveLord/HiveLord_ChallengeSite</texture>
+    <expandingIconTexture>World/WorldObjects/HiveLord/HiveLord_ChallengeSite</expandingIconTexture>
+    <allowCaravanIncidentsWhichGenerateMap>false</allowCaravanIncidentsWhichGenerateMap>
+    <comps Inherit="False">
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+      <li Class="WorldObjectCompProperties_EnterCooldown" />
+    </comps>
+  </WorldObjectDef>
+</Defs>

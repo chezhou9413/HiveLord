@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Challenge_InitFailed>Site setup failed. Withdraw and try again.</HiveLord_Challenge_InitFailed>
+  <HiveLord_Challenge_CompleteStatus>Kill confirmed · Spewers {0}/5</HiveLord_Challenge_CompleteStatus>
+  <HiveLord_Challenge_FightingStatus>Hive Lord active · Spewers {0}/5</HiveLord_Challenge_FightingStatus>
+  <HiveLord_Challenge_CountdownStatus>Hive Lord arrives in {0} · Spewers {1}/5</HiveLord_Challenge_CountdownStatus>
+  <HiveLord_Challenge_EnteredTitle>Inside the spore shroud</HiveLord_Challenge_EnteredTitle>
+  <HiveLord_Challenge_EnteredBody>Orange spores hang over the ground. Five spewers are still venting, and the first tremors are coming from below.\n\nThe Hive Lord will emerge in three minutes. Use explosives to destroy the spewers and clear your sightlines before it surfaces.</HiveLord_Challenge_EnteredBody>
+  <HiveLord_Challenge_WarningTitle>Tremors intensify</HiveLord_Challenge_WarningTitle>
+  <HiveLord_Challenge_WarningBody>Cracks are spreading across the ground. The Hive Lord will emerge in 30 seconds.\n\nSpread out and keep clear of the emergence zone. Any surviving spewers will continue to impair your team.</HiveLord_Challenge_WarningBody>
+  <HiveLord_Challenge_BossTitle>Hive Lord emerging</HiveLord_Challenge_BossTitle>
+  <HiveLord_Challenge_BossBody>The ground is breaking open. The Hive Lord is surfacing.\n\nKeep clear of its acid spray and body slam. Kill it to fulfil the Syndicate contract.</HiveLord_Challenge_BossBody>
+  <HiveLord_Challenge_FailureTitle>Site setup failed</HiveLord_Challenge_FailureTitle>
+  <HiveLord_Challenge_FailureBody>The site could not be prepared for this attempt. Withdraw and re-enter; the contract will remain open.\n\nError details: {0}</HiveLord_Challenge_FailureBody>
+</LanguageData>
+

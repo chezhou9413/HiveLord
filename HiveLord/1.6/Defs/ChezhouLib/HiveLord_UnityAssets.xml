@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ChezhouLib.LibDef.ClFeatureDeclarationDef>
+    <defName>HiveLord_UnityAssets</defName>
+    <feature>UnityAssets</feature>
+    <targetPackageIds>
+      <li>chezhou.creature.hivelord</li>
+    </targetPackageIds>
+  </ChezhouLib.LibDef.ClFeatureDeclarationDef>
+
+  <ChezhouLib.LibDef.ClAssetLord>
+    <defName>HiveLord_AssetLord</defName>
+    <label>Hive Lord capture assets</label>
+    <requiredFeature>UnityAssets</requiredFeature>
+    <AbPath>/1.6/AssetBundles/hivelord.ab</AbPath>
+    <AbPathWindows>/1.6/AssetBundles/hivelord.ab</AbPathWindows>
+    <AbPathMac>/1.6/AssetBundles/hivelord_mac.ab</AbPathMac>
+    <AbPathLinux>/1.6/AssetBundles/hivelord_linux.ab</AbPathLinux>
+    <unityAssetMount>
+      <li>
+        <key>HiveLord.Capture</key>
+        <value>/Helldivers2/HiveLord/Prefabs/HiveLord_Capture.prefab</value>
+      </li>
+    </unityAssetMount>
+  </ChezhouLib.LibDef.ClAssetLord>
+
+  <ChezhouLib.LibDef.ClAssetLord>
+    <defName>HiveLord_SporeSpewerAssetLord</defName>
+    <label>Spore Spewer capture assets</label>
+    <requiredFeature>UnityAssets</requiredFeature>
+    <AbPath>/1.6/AssetBundles/sporespewer.ab</AbPath>
+    <AbPathWindows>/1.6/AssetBundles/sporespewer.ab</AbPathWindows>
+    <AbPathMac>/1.6/AssetBundles/sporespewer_mac.ab</AbPathMac>
+    <AbPathLinux>/1.6/AssetBundles/sporespewer_linux.ab</AbPathLinux>
+    <unityAssetMount>
+      <li>
+        <key>SporeSpewer.Capture</key>
+        <value>/Helldivers2/SporeSpewer/Prefabs/SporeSpewer_Capture.prefab</value>
+      </li>
+    </unityAssetMount>
+  </ChezhouLib.LibDef.ClAssetLord>
+
+  <ChezhouLib.LibDef.UnityShaderLord>
+    <defName>HiveLord_ShaderLord</defName>
+    <label>Creature compositing shaders</label>
+    <AbPath>/1.6/AssetBundles/hivelordshader.ab</AbPath>
+    <AbPathWindows>/1.6/AssetBundles/hivelordshader.ab</AbPathWindows>
+    <AbPathMac>/1.6/AssetBundles/hivelordshader_mac.ab</AbPathMac>
+    <AbPathLinux>/1.6/AssetBundles/hivelordshader_linux.ab</AbPathLinux>
+    <ShaderFolderName>/Shader/</ShaderFolderName>
+    <ImageFolderName>/image/</ImageFolderName>
+  </ChezhouLib.LibDef.UnityShaderLord>
+</Defs>

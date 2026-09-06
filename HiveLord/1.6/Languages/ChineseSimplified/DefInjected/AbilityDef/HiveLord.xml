@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Summon.label>召唤霸王虫</HiveLord_Summon.label>
+  <HiveLord_Summon.description>呼唤地下的猎手，在指定露天空地召唤一只效忠使用者阵营的霸王虫，自动追击全图敌人。\n\n体型与攻击范围减半，最大生命值为普通霸王虫的三分之一，攻击伤害不变。不会伤害或击飞友军，单次承受伤害最多100点。\n\n施放距离30格，准备时间1.5秒。存在1天，冷却15天。召唤体死亡或到期不会提供猎杀报酬。</HiveLord_Summon.description>
+</LanguageData>
+

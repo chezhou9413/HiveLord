@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Projection.label>hive lord</HiveLord_Projection.label>
+  <HiveLord_Projection.description>A colossal insect that hunts beneath the ground. It follows the movement of its enemies, surfacing to spit acid or drive its immense body into the earth.\n\nIts heavy carapace limits health damage to 100 per hit. Watch for tremors and attack warnings, then concentrate fire while it is above ground.</HiveLord_Projection.description>
+  <HiveLord_HitProxy.label>hive lord</HiveLord_HitProxy.label>
+  <HiveLord_HitProxy.description>A colossal insect that hunts beneath the ground. It follows the movement of its enemies, surfacing to spit acid or drive its immense body into the earth.\n\nIts heavy carapace limits health damage to 100 per hit. Watch for tremors and attack warnings, then concentrate fire while it is above ground.</HiveLord_HitProxy.description>
+  <HiveLord_Summoned.label>summoned hive lord</HiveLord_Summoned.label>
+  <HiveLord_Summoned.description>A Hive Lord called into service. It belongs to the summoner's faction and hunts enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and the same attack damage. It cannot harm or knock back allies, and takes no more than 100 health damage per hit. It lasts one day; its death or expiry grants no hunting reward.</HiveLord_Summoned.description>
+  <HiveLord_SummonedHitProxy.label>summoned hive lord</HiveLord_SummonedHitProxy.label>
+  <HiveLord_SummonedHitProxy.description>A Hive Lord called into service. It belongs to the summoner's faction and hunts enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and the same attack damage. It cannot harm or knock back allies, and takes no more than 100 health damage per hit. It lasts one day; its death or expiry grants no hunting reward.</HiveLord_SummonedHitProxy.description>
+  <HiveLord_SporeSpewer.label>spore spewer</HiveLord_SporeSpewer.label>
+  <HiveLord_SporeSpewer.description>A giant insect rooted to the ground, its swollen sacs venting clouds of orange spores. As long as one survives, its fog shrouds the entire map.\n\nSpores halve sight and ranged attack range for all creatures, reduce movement speed by 0.3 cells per second, and block map search. Multiple spewers do not stack these effects.\n\nHealth: 1,200. Only explosions can break its shell; gunfire, melee attacks and ordinary fire cannot harm it. It cannot move, be deconstructed or be repaired.</HiveLord_SporeSpewer.description>
+  <HiveLord_SummonTrainer.label>neurotrainer (Summon Hive Lord)</HiveLord_SummonTrainer.label>
+  <HiveLord_SummonTrainer.description>A single-use neurotrainer sealed by the Syndicate. It writes the commands for calling a Hive Lord into the user's memory, permanently teaching Summon Hive Lord. No psylink is required.\n\nThe summoned creature belongs to the user's faction. It has half the size and attack area of a normal Hive Lord and one-third of its health. It lasts one day, with a 15-day ability cooldown. The trainer is consumed on use.</HiveLord_SummonTrainer.description>
+  <HiveLord_SummonTrainer.comps.CompUsable.useLabel>Learn Summon Hive Lord</HiveLord_SummonTrainer.comps.CompUsable.useLabel>
+</LanguageData>
+

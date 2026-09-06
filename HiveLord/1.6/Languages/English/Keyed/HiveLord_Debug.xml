@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Debug_DisableAI>Disable combat AI</HiveLord_Debug_DisableAI>
+  <HiveLord_Debug_EnableAI>Enable combat AI</HiveLord_Debug_EnableAI>
+  <HiveLord_Debug_AIDesc>Toggle automatic target acquisition and the emergence attack cycle.</HiveLord_Debug_AIDesc>
+  <HiveLord_Debug_Reacquire>Reacquire target</HiveLord_Debug_Reacquire>
+  <HiveLord_Debug_ReacquireDesc>Clear the current and forced targets, return underground and find the nearest enemy.</HiveLord_Debug_ReacquireDesc>
+  <HiveLord_Debug_AIDisabled>Combat AI is disabled.</HiveLord_Debug_AIDisabled>
+  <HiveLord_Debug_StopCycle>Stop animation cycle</HiveLord_Debug_StopCycle>
+  <HiveLord_Debug_StartCycle>Start animation cycle</HiveLord_Debug_StartCycle>
+  <HiveLord_Debug_CycleDesc>Play each animation state in sequence. Enabling this disables combat AI.</HiveLord_Debug_CycleDesc>
+  <HiveLord_Debug_StateLabel>Animation: {0}</HiveLord_Debug_StateLabel>
+  <HiveLord_Debug_StateDesc>Disable combat AI and automatic cycling, then play the selected state.</HiveLord_Debug_StateDesc>
+  <HiveLord_Debug_Underground>Underground idle</HiveLord_Debug_Underground>
+  <HiveLord_Debug_Emerging>Emerge</HiveLord_Debug_Emerging>
+  <HiveLord_Debug_Idle>Surface idle</HiveLord_Debug_Idle>
+  <HiveLord_Debug_Acid>Acid spray</HiveLord_Debug_Acid>
+  <HiveLord_Debug_Slam>Body slam</HiveLord_Debug_Slam>
+  <HiveLord_Debug_Submerging>Submerge</HiveLord_Debug_Submerging>
+  <HiveLord_Debug_SpawnSpore>Spawn Spore Spewer</HiveLord_Debug_SpawnSpore>
+</LanguageData>
+

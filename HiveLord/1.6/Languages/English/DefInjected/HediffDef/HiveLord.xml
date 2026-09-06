@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_SporeInterference.label>spore interference</HiveLord_SporeInterference.label>
+  <HiveLord_SporeInterference.description>Orange spores fill the air, obscuring vision and slowing movement.\n\nSight ×0.5. Effective ranged attack range ×0.5. Final movement speed reduced by 0.3 cells per second, to a minimum of 0.1. Melee reach, building turrets and non-attack abilities are unaffected by the range penalty.\n\nAnimals, mechanoids and insects are affected, regardless of faction or shelter. Multiple sources do not stack. Leave the map or destroy the last Spore Spewer to remove the effect and restore map search.</HiveLord_SporeInterference.description>
+</LanguageData>
+

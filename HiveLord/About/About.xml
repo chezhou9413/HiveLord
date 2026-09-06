@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>LEVIATHANS: HIVE LORD</name>
+  <author>Chezhou</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>地下的震动越来越近。橙色孢雾后面，霸王虫正在等你。
+
+接受辛迪加的猎杀委托，深入孢雾巢域。用爆炸武器清除孢子喷涌虫，在三分钟内为霸王虫出土做好准备。避开酸液和重压，击杀目标，带走白银、超织物与召唤霸王虫的神经训练器。
+
+包含霸王虫战斗、全图孢雾、可重试的狩猎据点与限时友方召唤。支持简体中文和英文，可在模组设置中调整难度。
+RimWorld 1.6 / Windows、macOS、Linux。需要 Harmony 与 ChezhouLib。
+
+The tremors are getting closer. Beyond the orange spore shroud, a Hive Lord is waiting.
+
+Take a Syndicate hunting contract and enter the nest. Destroy the Spore Spewers with explosives and prepare for the Hive Lord to emerge in three minutes. Evade its acid and crushing blows, confirm the kill, and claim silver, hyperweave and a Summon Hive Lord neurotrainer.
+
+Includes Hive Lord combat, map-wide spore fog, a retryable hunting site and temporary allied summons. Full English and Simplified Chinese text, with adjustable difficulty in mod settings.
+RimWorld 1.6 / Windows, macOS, Linux. Requires Harmony and ChezhouLib.</description>
+  <packageId>chezhou.creature.hivelord</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Chezhou.ChezhouLib.lib</packageId>
+      <displayName>ChezhouLib</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3595247479</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Chezhou.ChezhouLib.lib</li>
+  </loadAfter>
+</ModMetaData>

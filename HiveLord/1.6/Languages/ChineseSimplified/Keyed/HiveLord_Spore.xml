@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Spore_Inspect>生命值：{0} / {1}\n外壳弱点：爆炸\n孢雾正在扩散 · 地图搜索受阻</HiveLord_Spore_Inspect>
+  <HiveLord_Spore_SearchBlocked>孢雾遮断了搜索视野。摧毁本地图所有孢子喷涌虫后才能恢复地图搜索。</HiveLord_Spore_SearchBlocked>
+  <HiveLord_Spore_NeedMap>需要在地图上放置孢子喷涌虫。</HiveLord_Spore_NeedMap>
+  <HiveLord_Spore_OutOfBounds>5×5占地超出地图边界：{0}</HiveLord_Spore_OutOfBounds>
+  <HiveLord_Spore_Occupied>占地内已有{0}，位置：{1}</HiveLord_Spore_Occupied>
+  <HiveLord_Spore_UnsupportedTerrain>地形无法承载孢子喷涌虫，位置：{0}</HiveLord_Spore_UnsupportedTerrain>
+</LanguageData>
+

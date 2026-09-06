@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Quest_Title>辛迪加委托：孢雾中的霸王虫</HiveLord_Quest_Title>
+  <HiveLord_Quest_Rewards>10000白银、1000超织物、1个技能训练器（召唤霸王虫）</HiveLord_Quest_Rewards>
+  <HiveLord_Quest_Description>辛迪加在殖民地附近捕捉到了异常震动：一头霸王虫正在地下活动。他们需要一支队伍找到它，把它杀掉。\n\n巢域位于殖民地附近的一片干旱灌木林中，地势开阔。辛迪加已核实远行队的接近路线。接受委托后，他们会将坐标标记在世界地图上。\n\n先处理地表的5只孢子喷涌虫。每只拥有1200生命，外壳只能用爆炸武器摧毁。孢雾会让整张地图上的生物视力与远程攻击射程减半，移速降低0.3格/秒，地图搜索也会失效。\n\n从队伍踏入巢域开始，你有3分钟准备。时间一到，霸王虫就会出土。提前清空孢子源不会让它更早出现；没来得及清除的孢子源会继续干扰战斗。计时随游戏速度推进，暂停时停止。\n\n报酬：{0}。确认目标死亡后，辛迪加会将物资空投到队伍附近。\n\n如果队伍撤离或全员失去战斗能力，这次行动将中断。委托保留，再次进入会从头开始；遗留人员与物品不会替你回收。完成猎杀后可以收取报酬、整理现场，待全员离开，辛迪加便会封闭这处坐标。</HiveLord_Quest_Description>
+  <HiveLord_Quest_NeedHome>需要一处殖民地才能接收委托。</HiveLord_Quest_NeedHome>
+  <HiveLord_Quest_NoSite>辛迪加尚未找到远行队能够抵达的行动地点，暂时无法确认巢域坐标。</HiveLord_Quest_NoSite>
+  <HiveLord_Quest_CoordinatesTitle>辛迪加：坐标已确认</HiveLord_Quest_CoordinatesTitle>
+  <HiveLord_Quest_CoordinatesBody>孢雾巢域已标记在世界地图上。辛迪加再次提醒：带上爆炸武器。踏入巢域后，你们只有3分钟清理孢子源。</HiveLord_Quest_CoordinatesBody>
+  <HiveLord_Quest_InterruptedTitle>猎杀行动中断</HiveLord_Quest_InterruptedTitle>
+  <HiveLord_Quest_InterruptedBody>队伍已撤离，或已无人能够继续作战。辛迪加会保留这份委托。\n\n本次行动区域将被清理。再次进入时，5只孢子喷涌虫与3分钟准备时间都会重置。遗留人员与物品不会随队回收。</HiveLord_Quest_InterruptedBody>
+  <HiveLord_Quest_CompletedTitle>辛迪加：猎杀确认</HiveLord_Quest_CompletedTitle>
+  <HiveLord_Quest_CompletedBody>地下的震动终于停了。辛迪加已确认霸王虫死亡，报酬正在空投至队伍附近：\n\n{0}\n\n收好物资再撤离。全员离开后，这处巢域的坐标将被关闭。</HiveLord_Quest_CompletedBody>
+</LanguageData>

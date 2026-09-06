@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Challenge_InitFailed>区域准备失败，请撤离后重试</HiveLord_Challenge_InitFailed>
+  <HiveLord_Challenge_CompleteStatus>猎杀完成 · 孢子源 {0}/5</HiveLord_Challenge_CompleteStatus>
+  <HiveLord_Challenge_FightingStatus>霸王虫已现身 · 孢子源 {0}/5</HiveLord_Challenge_FightingStatus>
+  <HiveLord_Challenge_CountdownStatus>霸王虫抵达 {0} · 孢子源 {1}/5</HiveLord_Challenge_CountdownStatus>
+  <HiveLord_Challenge_EnteredTitle>进入孢雾巢域</HiveLord_Challenge_EnteredTitle>
+  <HiveLord_Challenge_EnteredBody>橙色孢雾笼罩着地面，5只喷涌虫仍在排放孢子。脚下的震动已经开始。\n\n霸王虫将在3分钟后出土。用爆炸武器清除孢子源，为接下来的战斗争取视野。</HiveLord_Challenge_EnteredBody>
+  <HiveLord_Challenge_WarningTitle>地下震动加剧</HiveLord_Challenge_WarningTitle>
+  <HiveLord_Challenge_WarningBody>地面的裂缝正在扩张。还有30秒，霸王虫就会出土。\n\n拉开队形，避开破土区域。残存的孢子源仍会影响战斗。</HiveLord_Challenge_WarningBody>
+  <HiveLord_Challenge_BossTitle>霸王虫破土</HiveLord_Challenge_BossTitle>
+  <HiveLord_Challenge_BossBody>地面被掀开了。霸王虫正在破土而出。\n\n避开酸液和重压落点，击杀目标，完成辛迪加的委托。</HiveLord_Challenge_BossBody>
+  <HiveLord_Challenge_FailureTitle>行动区域无法建立</HiveLord_Challenge_FailureTitle>
+  <HiveLord_Challenge_FailureBody>本次行动区域未能完成准备。请撤离后重新进入，委托不会因此作废。\n\n错误详情：{0}</HiveLord_Challenge_FailureBody>
+</LanguageData>
+

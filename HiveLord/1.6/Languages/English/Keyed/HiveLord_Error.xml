@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Error_SporePlacement>Could not select five spewer sites satisfying footprint, spacing and reachability constraints.</HiveLord_Error_SporePlacement>
+  <HiveLord_Error_BossAlreadyPresent>A contract Hive Lord already exists on the challenge map.</HiveLord_Error_BossAlreadyPresent>
+  <HiveLord_Error_BossAnchor>No valid Hive Lord spawn position exists on the challenge map.</HiveLord_Error_BossAnchor>
+  <HiveLord_Error_QuestGeneration>Failed to generate the Syndicate Hive Lord contract.</HiveLord_Error_QuestGeneration>
+  <HiveLord_Error_ControllerMissing>The Hive Lord capture prefab has no Animator Controller.</HiveLord_Error_ControllerMissing>
+  <HiveLord_Error_AnimationAmbiguous>Multiple animation clips match the identifier: </HiveLord_Error_AnimationAmbiguous>
+  <HiveLord_Error_AnimationMissing>Missing animation clip: </HiveLord_Error_AnimationMissing>
+  <HiveLord_Error_SummonFaction>The summon must be assigned a valid caster faction before spawning.</HiveLord_Error_SummonFaction>
+  <HiveLord_Error_HitProxyClass>The hit proxy definition must use HiveLordHitProxy.</HiveLord_Error_HitProxyClass>
+  <HiveLord_Error_CombatExtension>The Hive Lord definition has no HiveLordCombatExtension.</HiveLord_Error_CombatExtension>
+  <HiveLord_Error_VisualState>Invalid Hive Lord visual state.</HiveLord_Error_VisualState>
+  <HiveLord_Error_ParticleLayout>The capture prefab must contain two named acid particle systems and one named emergence system.</HiveLord_Error_ParticleLayout>
+  <HiveLord_Error_SkinnedMesh>The Hive Lord capture prefab has no SkinnedMeshRenderer.</HiveLord_Error_SkinnedMesh>
+  <HiveLord_Error_Animator>The Hive Lord capture prefab has no Animator.</HiveLord_Error_Animator>
+  <HiveLord_Error_CameraAnchor>The map anchor is behind the capture camera.</HiveLord_Error_CameraAnchor>
+  <HiveLord_Error_ChallengeTargetState>A Hive Lord must be spawned and alive to start an encounter.</HiveLord_Error_ChallengeTargetState>
+  <HiveLord_Error_MaskTexture>Failed to create the Hive Lord silhouette texture.</HiveLord_Error_MaskTexture>
+  <HiveLord_Error_MaskShader>Body mask shader not loaded: </HiveLord_Error_MaskShader>
+  <HiveLord_Error_CapturePrefab>Hive Lord capture prefab not loaded: </HiveLord_Error_CapturePrefab>
+  <HiveLord_Error_OutputShader>Map output shader not loaded: </HiveLord_Error_OutputShader>
+  <HiveLord_Error_SporeTexture>Failed to create the Spore Spewer capture texture.</HiveLord_Error_SporeTexture>
+  <HiveLord_Error_SporePrefab>Prefab not registered: SporeSpewer.Capture.</HiveLord_Error_SporePrefab>
+  <HiveLord_Error_SporeFogShader>Shader not registered: HiveLord/SporeFog.</HiveLord_Error_SporeFogShader>
+  <HiveLord_Error_DamageCapPatch>The damage cap patch must match exactly one vanilla damage-rounding call.</HiveLord_Error_DamageCapPatch>
+  <HiveLord_Error_ChallengeTarget>No valid player combat target is available for the encounter.</HiveLord_Error_ChallengeTarget>
+  <HiveLord_Error_EmergenceCell>No valid emergence position exists near the encounter target.</HiveLord_Error_EmergenceCell>
+  <HiveLord_Error_CombatPhase>Invalid Hive Lord combat phase.</HiveLord_Error_CombatPhase>
+  <HiveLord_Error_CombatSave>Invalid Hive Lord combat state in the save.</HiveLord_Error_CombatSave>
+  <HiveLord_Error_CombatTiming>Cannot resolve combat timing without an Animator Controller.</HiveLord_Error_CombatTiming>
+  <HiveLord_Error_SearchInterval>targetSearchIntervalTicks must be greater than zero.</HiveLord_Error_SearchInterval>
+  <HiveLord_Error_SearchRadii>Search radius must be positive; retention radius must be at least as large.</HiveLord_Error_SearchRadii>
+  <HiveLord_Error_AttackChance>acidAttackChance must be between zero and one.</HiveLord_Error_AttackChance>
+  <HiveLord_Error_EmergenceRing>Emergence radii must be non-negative and ordered, within the radial enumeration limit.</HiveLord_Error_EmergenceRing>
+  <HiveLord_Error_PhaseTiming>Invalid phase timing. Acid residue must last at least 600 ticks; maximum underground wait must not be below the minimum.</HiveLord_Error_PhaseTiming>
+  <HiveLord_Error_AnimationTiming>Normalized animation times must be within 0–1. The acid window must contain its impact; impacts must precede the attack end.</HiveLord_Error_AnimationTiming>
+  <HiveLord_Error_ShockwaveGeometry>Invalid emergence radius, launch distance or shockwave size.</HiveLord_Error_ShockwaveGeometry>
+  <HiveLord_Error_AttackGeometry>Invalid acid or slam area length, offset or half-width.</HiveLord_Error_AttackGeometry>
+  <HiveLord_Error_Shake>Camera shake must be within 0–0.2 and falloff distance must be positive.</HiveLord_Error_Shake>
+</LanguageData>
+

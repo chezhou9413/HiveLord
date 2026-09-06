@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Summon.label>Summon Hive Lord</HiveLord_Summon.label>
+  <HiveLord_Summon.description>Call a hunter from beneath the ground. Summon a Hive Lord on open, unroofed ground to serve the user's faction and pursue enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and unchanged attack damage. It cannot harm or knock back allies and takes at most 100 health damage per hit.\n\nCast range: 30 cells. Cast time: 1.5 seconds. Duration: one day. Cooldown: 15 days. Its death or expiry grants no hunting reward.</HiveLord_Summon.description>
+</LanguageData>
+

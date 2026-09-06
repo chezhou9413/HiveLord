@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2617113385
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: hivelord.ab
+      Dependencies: {}
+    Info_1:
+      Name: hivelordshader.ab
+      Dependencies: {}
+    Info_2:
+      Name: sporespewer.ab
+      Dependencies: {}

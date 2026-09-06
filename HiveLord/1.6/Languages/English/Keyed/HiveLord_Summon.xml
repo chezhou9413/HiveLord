@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Summon_UnsupportedUser>This pawn cannot use this neurotrainer.</HiveLord_Summon_UnsupportedUser>
+  <HiveLord_Summon_AlreadyKnown>Summon Hive Lord has already been learned.</HiveLord_Summon_AlreadyKnown>
+  <HiveLord_Summon_Learned>{0} has learned Summon Hive Lord.</HiveLord_Summon_Learned>
+  <HiveLord_Summon_Inspect>Health: {0} / {1}\nTime remaining: {2}</HiveLord_Summon_Inspect>
+  <HiveLord_Summon_NeedCaster>The summoner must be on a map and belong to a faction.</HiveLord_Summon_NeedCaster>
+  <HiveLord_Summon_MapEdge>Too close to the map edge to summon a Hive Lord.</HiveLord_Summon_MapEdge>
+  <HiveLord_Summon_BlockedCell>Choose explored, walkable ground.</HiveLord_Summon_BlockedCell>
+  <HiveLord_Summon_Roofed>The Hive Lord needs open ground without a roof.</HiveLord_Summon_Roofed>
+  <HiveLord_Summon_Occupied>The summon area contains a building or another Hive Lord.</HiveLord_Summon_Occupied>
+</LanguageData>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>HiveLord_SummonTrainer</defName>
+    <label>neurotrainer (Summon Hive Lord)</label>
+    <description>A single-use neurotrainer sealed by the Syndicate. It writes the commands for calling a Hive Lord into the user&apos;s memory, permanently teaching Summon Hive Lord. No psylink is required.\n\nThe summoned creature belongs to the user&apos;s faction. It has half the size and attack area of a normal Hive Lord and one-third of its health. It lasts one day, with a 15-day ability cooldown. The trainer is consumed on use.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <techLevel>Ultra</techLevel>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Item/Special/MechSerumNeurotrainer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <MarketValue>10000</MarketValue>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Neurotrainers</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseNeurotrainer</useJob>
+        <useLabel>Learn Summon Hive Lord</useLabel>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>HiveLordLib.CompUseEffect_LearnHiveLord</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+</Defs>

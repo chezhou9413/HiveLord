@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>HiveLord_SporeSpewer</defName>
+    <label>spore spewer</label>
+    <description>A giant insect rooted to the ground, its swollen sacs venting clouds of orange spores. As long as one survives, its fog shrouds the entire map.\n\nSpores halve sight and ranged attack range for all creatures, reduce movement speed by 0.3 cells per second, and block map search. Multiple spewers do not stack these effects.\n\nHealth: 1,200. Only explosions can break its shell; gunfire, melee attacks and ordinary fire cannot harm it. It cannot move, be deconstructed or be repaired.</description>
+    <thingClass>HiveLordLib.SporeSpewer.SporeSpewerThing</thingClass>
+    <category>Building</category>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(5,5)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <passability>Impassable</passability>
+    <fillPercent>1</fillPercent>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <isAutoAttackableMapObject>true</isAutoAttackableMapObject>
+    <useHitPoints>true</useHitPoints>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <drawDamagedOverlay>false</drawDamagedOverlay>
+    <hasTooltip>true</hasTooltip>
+    <graphicData>
+      <texPath>Things/HiveLord/HiveLord_Invisible</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>2000</Mass>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isTargetable>true</isTargetable>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <deconstructible>false</deconstructible>
+      <claimable>false</claimable>
+      <repairable>false</repairable>
+      <neverBuildable>true</neverBuildable>
+      <expandHomeArea>false</expandHomeArea>
+      <allowAutoroof>false</allowAutoroof>
+    </building>
+  </ThingDef>
+</Defs>

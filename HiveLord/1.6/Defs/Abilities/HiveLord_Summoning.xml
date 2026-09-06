@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef>
+    <defName>HiveLord_Summon</defName>
+    <label>Summon Hive Lord</label>
+    <description>Call a hunter from beneath the ground. Summon a Hive Lord on open, unroofed ground to serve the user&apos;s faction and pursue enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and unchanged attack damage. It cannot harm or knock back allies and takes at most 100 health damage per hit.\n\nCast range: 30 cells. Cast time: 1.5 seconds. Duration: one day. Cooldown: 15 days. Its death or expiry grants no hunting reward.</description>
+    <abilityClass>HiveLordLib.Ability_SummonHiveLord</abilityClass>
+    <iconPath>UI/Abilities/HiveLord_Summon</iconPath>
+    <cooldownTicksRange>900000</cooldownTicksRange>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <hostile>false</hostile>
+    <aiCanUse>false</aiCanUse>
+    <showPsycastEffects>false</showPsycastEffects>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>30</range>
+      <warmupTime>1.5</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityEffect">
+        <compClass>HiveLordLib.CompAbilityEffect_SummonHiveLord</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThingDef ParentName="HiveLordProjectionBase">
+    <defName>HiveLord_Summoned</defName>
+    <label>summoned hive lord</label>
+    <description>A Hive Lord called into service. It belongs to the summoner&apos;s faction and hunts enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and the same attack damage. It cannot harm or knock back allies, and takes no more than 100 health damage per hit. It lasts one day; its death or expiry grants no hunting reward.</description>
+  </ThingDef>
+  <ThingDef ParentName="HiveLordHitProxyBase">
+    <defName>HiveLord_SummonedHitProxy</defName>
+    <label>summoned hive lord</label>
+    <description>A Hive Lord called into service. It belongs to the summoner&apos;s faction and hunts enemies across the map.\n\nIt has half the size and attack area of a normal Hive Lord, one-third of its maximum health, and the same attack damage. It cannot harm or knock back allies, and takes no more than 100 health damage per hit. It lasts one day; its death or expiry grants no hunting reward.</description>
+    <size>(11,11)</size>
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <Mass>1250</Mass>
+    </statBases>
+  </ThingDef>
+</Defs>

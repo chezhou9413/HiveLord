@@ -1,0 +1,6 @@
+E:\RimModDev\HiveLord\HiveLord\1.6\Source\HiveLordLib\obj\Release\HiveLordLib.csproj.AssemblyReference.cache
+E:\RimModDev\HiveLord\HiveLord\1.6\Source\HiveLordLib\obj\Release\HiveLordLib.csproj.CoreCompileInputs.cache
+E:\RimModDev\HiveLord\HiveLord\1.6\Assemblies\HiveLordLib.dll
+E:\RimModDev\HiveLord\HiveLord\1.6\Assemblies\HiveLordLib.pdb
+E:\RimModDev\HiveLord\HiveLord\1.6\Source\HiveLordLib\obj\Release\HiveLordLib.dll
+E:\RimModDev\HiveLord\HiveLord\1.6\Source\HiveLordLib\obj\Release\HiveLordLib.pdb

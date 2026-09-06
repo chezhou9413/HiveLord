@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Projection.label>霸王虫</HiveLord_Projection.label>
+  <HiveLord_Projection.description>潜行于地下的巨型虫族。它会循着敌人的动静破土而出，喷吐酸液，或用沉重的虫躯砸向地面。\n\n厚重甲壳将单次受到的生命伤害限制在100点以内。留意地表震动和攻击预警，在它露出地面时集中火力。</HiveLord_Projection.description>
+  <HiveLord_HitProxy.label>霸王虫</HiveLord_HitProxy.label>
+  <HiveLord_HitProxy.description>潜行于地下的巨型虫族。它会循着敌人的动静破土而出，喷吐酸液，或用沉重的虫躯砸向地面。\n\n厚重甲壳将单次受到的生命伤害限制在100点以内。留意地表震动和攻击预警，在它露出地面时集中火力。</HiveLord_HitProxy.description>
+  <HiveLord_Summoned.label>召唤霸王虫</HiveLord_Summoned.label>
+  <HiveLord_Summoned.description>响应召唤的霸王虫，服从召唤者阵营，主动追击地图上的敌人。\n\n体型与攻击范围为普通霸王虫的一半，最大生命值为三分之一，攻击伤害不变。不会伤害或击飞友军，单次承受伤害上限为100点。存在1天；死亡或到期均不提供猎杀报酬。</HiveLord_Summoned.description>
+  <HiveLord_SummonedHitProxy.label>召唤霸王虫</HiveLord_SummonedHitProxy.label>
+  <HiveLord_SummonedHitProxy.description>响应召唤的霸王虫，服从召唤者阵营，主动追击地图上的敌人。\n\n体型与攻击范围为普通霸王虫的一半，最大生命值为三分之一，攻击伤害不变。不会伤害或击飞友军，单次承受伤害上限为100点。存在1天；死亡或到期均不提供猎杀报酬。</HiveLord_SummonedHitProxy.description>
+  <HiveLord_SporeSpewer.label>孢子喷涌虫</HiveLord_SporeSpewer.label>
+  <HiveLord_SporeSpewer.description>扎根于地面的巨型虫族，隆起的囊体不停排出橙色孢子。只要还有一只存活，浓雾就会笼罩整张地图。\n\n孢雾使所有生物的视觉能力与远程攻击射程减半，移速降低0.3格/秒，并阻断地图搜索。多个孢子源不会叠加影响。\n\n生命值1200。外壳只能被爆炸摧毁，枪弹、近战和普通燃烧均无法伤及它。无法移动、拆解或修复。</HiveLord_SporeSpewer.description>
+  <HiveLord_SummonTrainer.label>技能训练器（召唤霸王虫）</HiveLord_SummonTrainer.label>
+  <HiveLord_SummonTrainer.description>辛迪加封装的一次性神经训练器。接入后，一套驾驭霸王虫的指令将写入使用者的记忆，永久授予“召唤霸王虫”，无需灵能链接。\n\n召唤体归属使用者阵营，体型与攻击范围减半，生命值为普通霸王虫的三分之一，存在1天。技能冷却15天。训练器使用后耗尽。</HiveLord_SummonTrainer.description>
+  <HiveLord_SummonTrainer.comps.CompUsable.useLabel>学习召唤霸王虫</HiveLord_SummonTrainer.comps.CompUsable.useLabel>
+</LanguageData>
+

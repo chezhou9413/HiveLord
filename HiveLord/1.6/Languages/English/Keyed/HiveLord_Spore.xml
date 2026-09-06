@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Spore_Inspect>Health: {0} / {1}\nShell weakness: explosions\nVenting spores · Map search blocked</HiveLord_Spore_Inspect>
+  <HiveLord_Spore_SearchBlocked>The spore shroud is obscuring the area. Destroy every Spore Spewer on this map to restore map search.</HiveLord_Spore_SearchBlocked>
+  <HiveLord_Spore_NeedMap>A Spore Spewer must be placed on a map.</HiveLord_Spore_NeedMap>
+  <HiveLord_Spore_OutOfBounds>The 5×5 footprint extends beyond the map at {0}.</HiveLord_Spore_OutOfBounds>
+  <HiveLord_Spore_Occupied>The footprint contains {0} at {1}.</HiveLord_Spore_Occupied>
+  <HiveLord_Spore_UnsupportedTerrain>The terrain cannot support a Spore Spewer at {0}.</HiveLord_Spore_UnsupportedTerrain>
+</LanguageData>
+

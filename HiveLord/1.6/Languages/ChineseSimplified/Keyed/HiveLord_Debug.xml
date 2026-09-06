@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Debug_DisableAI>停用战斗AI</HiveLord_Debug_DisableAI>
+  <HiveLord_Debug_EnableAI>启用战斗AI</HiveLord_Debug_EnableAI>
+  <HiveLord_Debug_AIDesc>切换自动索敌与出土攻击循环。</HiveLord_Debug_AIDesc>
+  <HiveLord_Debug_Reacquire>重新索敌</HiveLord_Debug_Reacquire>
+  <HiveLord_Debug_ReacquireDesc>清除当前和强制目标，从地下状态重新搜索最近敌人。</HiveLord_Debug_ReacquireDesc>
+  <HiveLord_Debug_AIDisabled>战斗AI未启用。</HiveLord_Debug_AIDisabled>
+  <HiveLord_Debug_StopCycle>停止动画循环</HiveLord_Debug_StopCycle>
+  <HiveLord_Debug_StartCycle>开始动画循环</HiveLord_Debug_StartCycle>
+  <HiveLord_Debug_CycleDesc>依次播放全部动画阶段；启用后停用战斗AI。</HiveLord_Debug_CycleDesc>
+  <HiveLord_Debug_StateLabel>动画：{0}</HiveLord_Debug_StateLabel>
+  <HiveLord_Debug_StateDesc>停止战斗AI和动画循环，播放所选状态。</HiveLord_Debug_StateDesc>
+  <HiveLord_Debug_Underground>地下待机</HiveLord_Debug_Underground>
+  <HiveLord_Debug_Emerging>出土</HiveLord_Debug_Emerging>
+  <HiveLord_Debug_Idle>地表待机</HiveLord_Debug_Idle>
+  <HiveLord_Debug_Acid>喷酸</HiveLord_Debug_Acid>
+  <HiveLord_Debug_Slam>砸地</HiveLord_Debug_Slam>
+  <HiveLord_Debug_Submerging>入土</HiveLord_Debug_Submerging>
+  <HiveLord_Debug_SpawnSpore>放置孢子喷涌虫</HiveLord_Debug_SpawnSpore>
+</LanguageData>
+

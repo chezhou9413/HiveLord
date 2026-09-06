@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Settings_Rating>威胁等级：{0}</HiveLord_Settings_Rating>
+  <HiveLord_Settings_Overview>倍率范围：0.01–25。生命值调整会保留当前血量比例；召唤体使用同一套难度设置。</HiveLord_Settings_Overview>
+  <HiveLord_Settings_AttackPower>攻击伤害</HiveLord_Settings_AttackPower>
+  <HiveLord_Settings_IncomingDamage>承受伤害（越高越容易击杀）</HiveLord_Settings_IncomingDamage>
+  <HiveLord_Settings_Health>最大生命值</HiveLord_Settings_Health>
+  <HiveLord_Settings_Tempo>进攻频率</HiveLord_Settings_Tempo>
+  <HiveLord_Settings_HealthSummary>霸王虫生命值：{0}。进攻频率影响潜伏、换位、预警和恢复时间，不改变攻击动画速度。单次承受伤害仍以100点为上限。</HiveLord_Settings_HealthSummary>
+  <HiveLord_Settings_Warnings>显示攻击范围预警</HiveLord_Settings_Warnings>
+  <HiveLord_Settings_Reset>恢复默认设置</HiveLord_Settings_Reset>
+  <HiveLord_Settings_Multiplier>{0}：{1}倍</HiveLord_Settings_Multiplier>
+</LanguageData>
+

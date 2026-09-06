@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Site_CannotSettle>This nest is a Syndicate operation site and cannot be settled.</HiveLord_Site_CannotSettle>
+  <HiveLord_Site_Inspect>Syndicate-marked nest\nAttempts: {0}</HiveLord_Site_Inspect>
+  <HiveLord_Site_Pending>Three minutes to prepare after entry</HiveLord_Site_Pending>
+  <HiveLord_Site_Retry>Ready for another attempt; progress will reset</HiveLord_Site_Retry>
+  <HiveLord_Site_Completed>Kill confirmed; closes after everyone leaves</HiveLord_Site_Completed>
+  <HiveLord_Site_Enter>Enter the spore-shrouded nest</HiveLord_Site_Enter>
+  <HiveLord_Site_Entering>Entering the spore-shrouded nest</HiveLord_Site_Entering>
+  <HiveLord_Site_WaitForCleanup>The previous team has not withdrawn, or the site is still being cleared.</HiveLord_Site_WaitForCleanup>
+  <HiveLord_Site_EntryCooldown>The nest cannot be entered again yet.</HiveLord_Site_EntryCooldown>
+  <HiveLord_Site_NeedFighter>The caravan needs at least one free colonist who is not downed.</HiveLord_Site_NeedFighter>
+</LanguageData>
+

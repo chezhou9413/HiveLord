@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SongDef>
+    <defName>HiveLord_Music_Preparation</defName>
+    <label>Spore Shroud</label>
+    <clipPath>HiveLord/Music/HiveLord_Challenge_Preparation</clipPath>
+    <playOnMap>false</playOnMap>
+    <volume>1</volume>
+  </SongDef>
+  <SongDef>
+    <defName>HiveLord_Music_Battle</defName>
+    <label>Hive Lord Battle</label>
+    <clipPath>HiveLord/Music/HiveLord_Challenge_Battle</clipPath>
+    <playOnMap>false</playOnMap>
+    <tense>true</tense>
+    <volume>1</volume>
+  </SongDef>
+
+  <MusicSequenceDef Name="HiveLordChallengeMusicBase" Abstract="True">
+    <workerType>HiveLordLib.MusicSequenceWorker_HiveLordChallenge</workerType>
+    <loop>true</loop>
+    <loopDelayRange>0</loopDelayRange>
+    <useTransitionForLifetime>true</useTransitionForLifetime>
+    <canBeInterrupted>false</canBeInterrupted>
+    <fadeoutLastSongDuration>0.75</fadeoutLastSongDuration>
+    <fadeInDuration>0.75</fadeInDuration>
+    <overrideFadeout>1.5</overrideFadeout>
+  </MusicSequenceDef>
+  <MusicSequenceDef ParentName="HiveLordChallengeMusicBase">
+    <defName>HiveLord_MusicSequence_Preparation</defName>
+    <song>HiveLord_Music_Preparation</song>
+  </MusicSequenceDef>
+  <MusicSequenceDef ParentName="HiveLordChallengeMusicBase">
+    <defName>HiveLord_MusicSequence_Battle</defName>
+    <song>HiveLord_Music_Battle</song>
+  </MusicSequenceDef>
+
+  <MusicTransitionDef>
+    <defName>HiveLord_MusicTransition_Preparation</defName>
+    <workerType>HiveLordLib.MusicTransition_HiveLordChallenge</workerType>
+    <priority>10000</priority>
+    <sequence>HiveLord_MusicSequence_Preparation</sequence>
+    <overridesInterruptions>true</overridesInterruptions>
+  </MusicTransitionDef>
+  <MusicTransitionDef>
+    <defName>HiveLord_MusicTransition_Battle</defName>
+    <workerType>HiveLordLib.MusicTransition_HiveLordChallenge</workerType>
+    <priority>10001</priority>
+    <sequence>HiveLord_MusicSequence_Battle</sequence>
+    <overridesInterruptions>true</overridesInterruptions>
+  </MusicTransitionDef>
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Site_CannotSettle>这处巢域属于辛迪加的行动区域，不能建立殖民地。</HiveLord_Site_CannotSettle>
+  <HiveLord_Site_Inspect>辛迪加标记的孢雾巢域\n行动次数：{0}</HiveLord_Site_Inspect>
+  <HiveLord_Site_Pending>进入后有3分钟准备时间</HiveLord_Site_Pending>
+  <HiveLord_Site_Retry>等待再次进入；本次进度不会保留</HiveLord_Site_Retry>
+  <HiveLord_Site_Completed>猎杀完成；全员撤离后关闭</HiveLord_Site_Completed>
+  <HiveLord_Site_Enter>进入孢雾巢域</HiveLord_Site_Enter>
+  <HiveLord_Site_Entering>正在进入孢雾巢域</HiveLord_Site_Entering>
+  <HiveLord_Site_WaitForCleanup>上一支队伍尚未撤离，或行动区域仍在清理。</HiveLord_Site_WaitForCleanup>
+  <HiveLord_Site_EntryCooldown>暂时无法再次进入这处巢域。</HiveLord_Site_EntryCooldown>
+  <HiveLord_Site_NeedFighter>远行队中至少需要一名未倒地的自由殖民者。</HiveLord_Site_NeedFighter>
+</LanguageData>
+

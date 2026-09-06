@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 666575658
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c630e6e4439774bf1e7cebdb6f808bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2c630e6e4439774bf1e7cebdb6f808bf
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Shader/HiveLordBodyMask.shader
+- Assets/Shader/SporeFog.shader
+- Assets/Shader/HiveLordRimWorldToonOutput.shader
+Dependencies: []

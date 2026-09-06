@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AD51692-4879-4640-944F-9EBBA76D428C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HiveLordLib</RootNamespace>
+    <AssemblyName>HiveLordLib</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>E:\捷豹\rimworlddll\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\捷豹\rimworlddll\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ChezhouLib">
+      <HintPath>E:\RimModDev\ChezhouLib\1.6\Assemblies\ChezhouLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\捷豹\rimworlddll\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SporeSpewer\**\*.cs" />
+    <Compile Include="Summoning\**\*.cs" />
+    <Compile Include="Quests\**\*.cs" />
+    <Compile Include="World\**\*.cs" />
+    <Compile Include="Challenge\**\*.cs" />
+    <Compile Include="UI\HiveLordChallengeHud.cs" />
+    <Compile Include="Combat\HiveLordCombatController.Challenge.cs" />
+    <Compile Include="Things\HiveLordProjectionThing.Challenge.cs" />
+    <Compile Include="Settings\HiveLordSettings.cs" />
+    <Compile Include="Settings\HiveLordDifficulty.cs" />
+    <Compile Include="Settings\HiveLordMod.cs" />
+    <Compile Include="UI\HiveLordHudOverlay.cs" />
+    <Compile Include="Things\HiveLordProjectionThing.Death.cs" />
+    <Compile Include="Things\HiveLordProjectionThing.Commands.cs" />
+    <Compile Include="Rendering\HiveLordVisualController.Death.cs" />
+    <Compile Include="Rendering\HiveLordPoseBlender.cs" />
+    <Compile Include="Rendering\HiveLordVisualController.Particles.cs" />
+    <Compile Include="Effects\HiveLordImpactWave.cs" />
+    <Compile Include="Effects\HiveLordImpactWaveMapComponent.cs" />
+    <Compile Include="Effects\HiveLordImpactWaveEffects.cs" />
+    <Compile Include="Assets\HiveLordAssets.cs" />
+    <Compile Include="Audio\HiveLordSoundPlayer.cs" />
+    <Compile Include="Audio\Music\*.cs" />
+    <Compile Include="Combat\HiveLordAttackArea.cs" />
+    <Compile Include="Combat\Damage\HiveLordDamageCapPatch.cs" />
+    <Compile Include="Combat\HiveLordAttackResolver.cs" />
+    <Compile Include="Combat\HiveLordBurrowPushUtility.cs" />
+    <Compile Include="Combat\HiveLordCombatController.AttackArea.cs" />
+    <Compile Include="Combat\HiveLordCombatController.cs" />
+    <Compile Include="Combat\HiveLordCombatController.GroundFeedback.cs" />
+    <Compile Include="Combat\HiveLordCombatController.Persistence.cs" />
+    <Compile Include="Combat\HiveLordCombatController.StateMachine.cs" />
+    <Compile Include="Combat\HiveLordCombatTiming.cs" />
+    <Compile Include="Core\HiveLordCombatPhase.cs" />
+    <Compile Include="Core\HiveLordPlannedAttack.cs" />
+    <Compile Include="Core\HiveLordVisualState.cs" />
+    <Compile Include="Defs\HiveLordCombatExtension.cs" />
+    <Compile Include="Defs\HiveLordDefOf.cs" />
+    <Compile Include="Defs\HiveLordSoundDefOf.cs" />
+    <Compile Include="Effects\HiveLordAttackEffects.cs" />
+    <Compile Include="Effects\HiveLordBurrowShockwaveEffects.cs" />
+    <Compile Include="Effects\HiveLordCombatEffects.cs" />
+    <Compile Include="Effects\HiveLordScreenShake.cs" />
+    <Compile Include="Effects\HiveLordSubmergingClouds.cs" />
+    <Compile Include="Rendering\HiveLordAnimationCatalog.cs" />
+    <Compile Include="Rendering\HiveLordBodyMaskCapture.cs" />
+    <Compile Include="Rendering\HiveLordMapLightMesh.cs" />
+    <Compile Include="Rendering\HiveLordVisualController.cs" />
+    <Compile Include="Rendering\HiveLordProjectionStage.cs" />
+    <Compile Include="Rendering\HiveLordProjectionMapComponent.cs" />
+    <Compile Include="Targeting\HiveLordEmergencePlanner.cs" />
+    <Compile Include="Targeting\HiveLordTargetFinder.cs" />
+    <Compile Include="Things\HiveLordProjectionThing.cs" />
+    <Compile Include="Things\HiveLordProjectionThing.HitProxy.cs" />
+    <Compile Include="Things\HiveLordHitProxy.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

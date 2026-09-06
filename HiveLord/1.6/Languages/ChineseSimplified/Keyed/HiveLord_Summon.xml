@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HiveLord_Summon_UnsupportedUser>该角色无法使用这种神经训练器。</HiveLord_Summon_UnsupportedUser>
+  <HiveLord_Summon_AlreadyKnown>已经掌握召唤霸王虫。</HiveLord_Summon_AlreadyKnown>
+  <HiveLord_Summon_Learned>{0}掌握了召唤霸王虫。</HiveLord_Summon_Learned>
+  <HiveLord_Summon_Inspect>生命值：{0} / {1}\n契约剩余时间：{2}</HiveLord_Summon_Inspect>
+  <HiveLord_Summon_NeedCaster>召唤者必须身处地图中，并属于一个阵营。</HiveLord_Summon_NeedCaster>
+  <HiveLord_Summon_MapEdge>离地图边缘太近，无法容纳霸王虫。</HiveLord_Summon_MapEdge>
+  <HiveLord_Summon_BlockedCell>选择已探索、可以通行的地面。</HiveLord_Summon_BlockedCell>
+  <HiveLord_Summon_Roofed>霸王虫需要一片露天的空地。</HiveLord_Summon_Roofed>
+  <HiveLord_Summon_Occupied>召唤区域内已有建筑或其他霸王虫。</HiveLord_Summon_Occupied>
+</LanguageData>
+
