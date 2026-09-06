@@ -1,0 +1,131 @@
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/hive-lord-cover.png[/img]
+
+[h1]LEVIATHANS: HIVE LORD[/h1]
+[i]The Syndicate's second contract has arrived. Bring explosives this time.[/i]
+
+The scouting team sent back only a few recordings: dead shrubs, a sky swallowed by orange spores, and enormous creatures pumping more of them into the air.
+
+Then the camera began to shake.
+
+The Syndicate has identified the target beneath the nest: a [b]Hive Lord[/b].
+
+The Spore Spewers are only what you can see. The real quarry is still moving underground, and the noise of your arrival will draw it out soon enough.
+
+[b]Enter the nest. Destroy the spewers. Be ready when the Hive Lord surfaces. You have three minutes.[/b]
+
+[hr][/hr]
+
+[h2]About the Series[/h2]
+[b]LEVIATHANS[/b] is a series of mods about [b]hunting leviathan-class creatures[/b]. Each installment brings a different giant quarry, hunting ground and encounter.
+
+[b]HIVE LORD is the second installment.[/b]
+
+Originally planned as the second release, [b]KRAKEN[/b] has been moved to the third installment due to technical difficulties. The deep-sea contract will have to wait. For now, deal with what's beneath your feet.
+
+[b]The Hive Lord's original concept comes from HELLDIVERS 2.[/b]
+
+[h2]Syndicate Contract: A Hive Lord in the Spore Shroud[/h2]
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/hive-lord-showcase.png[/img]
+
+Once the combined wealth of your colonies reaches [b]500,000[/b], the Syndicate will offer a hunting contract and mark a nearby nest.
+
+The payment is agreed. Equipment, personnel and an escape route are your responsibility.
+
+[list]
+[*]Accept the contract and send a caravan to the target area
+[*]Entering the nest starts a [b]three-minute preparation countdown[/b]
+[*]Find and destroy the [b]five Spore Spewers[/b] scattered across the map
+[*]When the countdown ends, the Hive Lord surfaces and attacks your team
+[*]Confirm the kill, collect your payment and get the survivors out
+[/list]
+
+Clear the spewers early and you'll have time to regroup and choose your ground. Leave any standing and the Hive Lord still won't wait another second.
+
+[i]In three minutes, ready or not, it's coming.[/i]
+
+[h2]The Sources of the Shroud[/h2]
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/spore-spewer-destruction.gif[/img]
+
+Spore Spewers are rooted throughout the nest, filling the air with a thick orange haze. As long as even one survives, the entire area remains under its influence.
+
+Sight is impaired, ranged weapons lose their reach, and your team moves more slowly. Taking shelter indoors won't help. Even mechanoids are affected.
+
+[list]
+[*][b]Sight reduced by 50%[/b]
+[*][b]Effective ranged attack distance reduced by 50%[/b]
+[*][b]Movement speed reduced by 0.3 cells per second[/b]
+[*]Destroy the last Spore Spewer to remove the penalties and let the haze gradually clear
+[/list]
+
+These enormous spore sources [b]can only be destroyed by explosions[/b]. Ordinary gunfire and melee attacks cannot hurt them.
+
+Split up to clear the nest before the countdown runs out, or keep the team together and risk fighting the Hive Lord in the remaining haze.
+
+[b]Don't wait until you're inside the nest to discover that nobody packed grenades.[/b]
+
+[h2]It's Beneath Your Feet[/h2]
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/hive-lord-battle.gif[/img]
+
+The tremors usually come first.
+
+Then the ground splits open and a colossal body rises through the dust. Acid sweeps across your position. Crushing blows catch anyone too slow to scatter. By the time you've brought your guns to bear, it has burrowed underground again.
+
+It hasn't fled. It's choosing where to surface next.
+
+Spread out, leave room to retreat, and watch for the warning signs before each attack. Packing everyone behind the same piece of cover could make this a very short hunt.
+
+[b]Quiet ground doesn't mean safe ground.[/b]
+
+[h2]Withdrawal and Another Attempt[/h2]
+
+If your team can't hold, withdraw through the edge of the map. The Syndicate will keep the contract open while you regroup.
+
+Returning starts a fresh attempt: five Spore Spewers and the full three-minute preparation period.
+
+After a successful hunt, you can stay to treat the wounded and gather your supplies before leaving.
+
+[i]Retreat won't carry the fallen for you. Decide who's bringing them home before you set out.[/i]
+
+[h2]This Time, the Syndicate Is Paying[/h2]
+
+After the Sandworm contract, plenty of hunters looked at the payment and asked the same question:
+
+[i]"That's it?"[/i]
+
+The complaints about the reward not matching the risk have reached the Syndicate. This time, they're offering a much more generous contract.
+
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/hive-lord-rewards.png[/img]
+
+A confirmed Hive Lord kill earns you:
+
+[list]
+[*][b]10,000 silver[/b]
+[*][b]1,000 hyperweave[/b]
+[*][b]One Summon Hive Lord neurotrainer[/b]
+[/list]
+
+The silver covers the expedition. The hyperweave is for those who make it back. As for the neurotrainer, it will let your future enemies experience those same underground tremors.
+
+[h2]Next Time, Let It Fight for You[/h2]
+[img]https://raw.githubusercontent.com/chezhou9413/HiveLord/main/Workshop/Media/hive-lord-summoning.gif[/img]
+
+Using the neurotrainer permanently teaches a character [b]Summon Hive Lord[/b].
+
+The summoned Hive Lord belongs to the user's faction and automatically hunts hostile creatures across the map. Watching it rise in front of your defensive line feels very different from watching it rise underneath your squad.
+
+[list]
+[*][b]Half[/b] the size and attack range of a normal Hive Lord
+[*][b]One-third[/b] of a normal Hive Lord's health
+[*]Automatically searches the map for enemies
+[*]Remains for [b]one day[/b]
+[*]Ability cooldown: [b]15 days[/b]
+[/list]
+
+[h2]Credits[/h2]
+[list]
+[*]Cover art: [b]火焰乌龟[/b]
+[/list]
+
+[hr][/hr]
+
+[i]If the haze suddenly falls silent, watch your step.[/i]

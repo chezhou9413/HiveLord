@@ -1,6 +1,8 @@
 # Steam 创意工坊宣传素材
 
-[打开完整简介](Description.zh-CN.bbcode.txt)，复制文件正文到创意工坊简介编辑框即可。简介使用 Steam BBCode，六处图片均为本仓库的公开 Raw 直链。
+[中文简介](Description.zh-CN.bbcode.txt) · [English description](Description.en.bbcode.txt)
+
+复制对应语言文件的正文到创意工坊简介编辑框即可。两版均使用 Steam BBCode，六处图片均为本仓库的公开 Raw 直链。封面作者署名为火焰乌龟，英文版保留作者原名。
 
 素材存放于仓库外层的 `Workshop/Media`，不随内层可加载模组打包。封面直接复制自模组 `About/Preview.png`，未重新绘制。
 
